@@ -1,0 +1,19 @@
+.absolute {
+  position: absolute;
+}
+
+.z-index-2 {
+  z-index: 2;
+}
+
+.whats-img {
+  margin-left: 5px;
+  padding-top: 5px;
+  width: 30px;
+  height: 30px;
+}
+
+.whats-img:hover {
+  filter: contrast(150%);
+  transition: 200ms;
+}

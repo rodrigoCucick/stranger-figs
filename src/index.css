@@ -1,13 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap');
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    padding: 0;
+    margin: 0;
+    background-color: #17141d;
+    color: white;
+    font-family: 'DM Mono', monospace;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a {
+    text-decoration: none;
+}
+
+table, th, td {
+  margin: 0 auto;
+  border: 1px solid white;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+td {
+  text-align: center;
+  width: 55px;
+}
+
+td:hover {
+  font-weight: bold;
+}
+
+tr {
+  height: 55px;
+}
+
+canvas {
+  min-width: 800px;
+  min-height: 600px;
+  max-width: 800px;
+  max-height: 600px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.invisible {
+  display: none;
 }

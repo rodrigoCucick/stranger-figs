@@ -1,0 +1,7 @@
+.fig-img {
+  position: absolute;
+  border-radius: 5%;
+  height: 550px;
+  width: 400px;
+  overflow: hidden;
+}

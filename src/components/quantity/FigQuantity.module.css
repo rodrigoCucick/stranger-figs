@@ -1,0 +1,21 @@
+.fig-qnt-info {
+  grid-area: auto;
+  box-sizing: border-box;
+  z-index: 1;
+  width: 220px;
+  height: auto;
+}
+
+.fig-qnt {
+  font-style: normal;
+  font-weight: 700;
+  z-index: 1;
+  width: auto;
+  height: auto;
+}
+
+.fig-available {
+  font-size: 32px;
+  width: auto;
+  height: auto;
+}
